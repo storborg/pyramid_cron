@@ -4,6 +4,8 @@ import logging
 import socket
 from datetime import datetime
 
+import six
+
 log = logging.getLogger(__name__)
 
 
@@ -22,7 +24,7 @@ class Task(object):
         def conv(val):
             if val == '*':
                 return wildcard
-            if isinstance(val, (int, long)):
+            if isinstance(val, six.integer_types):
                 return set([val])
             if not isinstance(val, set):
                 val = set(val)
