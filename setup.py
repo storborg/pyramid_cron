@@ -1,11 +1,10 @@
 from __future__ import print_function
 
-import os
 from setuptools import setup, find_packages
 
 
 setup(name='pyramid_cron',
-      version='0.1',
+      version='0.1.1.dev',
       description='Simple scheduled tasks for Pyramid.',
       long_description='',
       classifiers=[
