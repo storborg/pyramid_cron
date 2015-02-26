@@ -1,6 +1,15 @@
 pyramid_cron - Simple scheduled tasks for Pyramid
 =================================================
 
+.. image:: https://secure.travis-ci.org/storborg/pyramid_cron.png
+    :target: http://travis-ci.org/storborg/pyramid_cron
+.. image:: https://coveralls.io/repos/storborg/pyramid_cron/badge.png?branch=master
+    :target: https://coveralls.io/r/storborg/pyramid_cron
+.. image:: https://pypip.in/v/pyramid_cron/badge.png
+    :target: https://crate.io/packages/pyramid_cron
+.. image:: https://pypip.in/d/pyramid_cron/badge.png
+    :target: https://crate.io/packages/pyramid_cron
+
 Scott Torborg - `Cart Logic <http://www.cartlogic.com>`_
 
 Provides the ability to register simple tasks (callback functions) for
